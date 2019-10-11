@@ -21,7 +21,9 @@
   ],
   "homepage": "https://github.com/markhillard/icanhazdadjoke",
   "keywords": [
-    "oclif"
+    "oclif",
+    "stream",
+    "dad joke"
   ],
   "license": "MIT",
   "main": "src/index.js",
