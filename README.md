@@ -1,6 +1,6 @@
 # icanhazdadjoke
 
-Stream dad jokes from https://icanhazdadjoke.com/api.
+Stream dad jokes from https://icanhazdadjoke.com/.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/icanhazdadjoke.svg)](https://npmjs.org/package/icanhazdadjoke)
