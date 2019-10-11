@@ -14,6 +14,7 @@ class IcanhazdadjokeCommand extends Command {
   async run() {
     // exported flags
     const { flags } = this.parse(IcanhazdadjokeCommand), // eslint-disable-line no-unused-vars
+
       // api options
       options = {
         url: 'https://icanhazdadjoke.com/',
@@ -21,6 +22,7 @@ class IcanhazdadjokeCommand extends Command {
           Accept: 'text/plain'
         }
       },
+
       // joke handler
       joke = (error, response, body) => {
         let message
@@ -33,29 +35,27 @@ class IcanhazdadjokeCommand extends Command {
       }
 
     // show usage instructions
-    rl.setPrompt('Press enter for a joke / press q to quit: \n' + prefix)
+    rl.setPrompt('press enter for a joke / press q to quit: \n' + prefix)
     rl.prompt()
 
     // watch for readline events
-    await rl
-      .on('line', line => {
-        switch (line.trim()) {
-          case 'q':
-            rl.close()
-            break
-          default:
-            request(options, joke)
-            break
-        }
-      })
-      .on('close', () => {
-        process.exit(0)
-      })
+    await rl.on('line', line => {
+      switch (line.trim()) {
+        case 'q':
+          rl.close()
+          break
+        default:
+          request(options, joke)
+          break
+      }
+    }).on('close', () => {
+      process.exit(0)
+    })
   }
 }
 
 // cli description
-IcanhazdadjokeCommand.description = `Stream dad jokes from https://icanhazdadjoke.com/`
+IcanhazdadjokeCommand.description = 'Stream dad jokes from https://icanhazdadjoke.com/'
 
 // cli flags
 IcanhazdadjokeCommand.flags = {
