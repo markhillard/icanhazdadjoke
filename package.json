@@ -1,0 +1,45 @@
+{
+  "name": "icanhazdadjoke",
+  "description": "Stream dad jokes from https://icanhazdadjoke.com/",
+  "version": "0.0.0",
+  "author": "Mark Hillard @markhillard",
+  "bin": {
+    "icanhazdadjoke": "./bin/run"
+  },
+  "bugs": "https://github.com/markhillard/icanhazdadjoke/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.19",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=10.16.x"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/markhillard/icanhazdadjoke",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "icanhazdadjoke"
+  },
+  "repository": "markhillard/icanhazdadjoke",
+  "scripts": {
+    "test": "echo NO TESTS"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module"
+    }
+  }
+}
