@@ -1,7 +1,7 @@
 {
   "name": "icanhazdadjoke",
   "description": "Stream dad jokes from https://icanhazdadjoke.com/",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Mark Hillard @markhillard",
   "bin": {
     "icanhazdadjoke": "./bin/run"
