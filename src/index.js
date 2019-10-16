@@ -42,6 +42,7 @@ class IcanhazdadjokeCommand extends Command {
     await rl.on('line', line => {
       switch (line.trim()) {
         case 'q':
+          process.stdout.write('\nHow do robots say goodbye? They use bye-nary.\n')
           rl.close()
           break
         default:
