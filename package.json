@@ -8,8 +8,8 @@
   },
   "bugs": "https://github.com/markhillard/icanhazdadjoke/issues",
   "dependencies": {
-    "@oclif/command": "^1.5.19",
-    "request": "^2.88.0"
+    "@oclif/command": "^1.7.0",
+    "request": "^2.88.2"
   },
   "devDependencies": {},
   "engines": {
