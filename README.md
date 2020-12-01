@@ -13,15 +13,15 @@ Stream dad jokes from https://icanhazdadjoke.com/
 
 ## Usage
 
-`npm install -g icanhazdadjoke`  
+`npm install -g icanhazdadjoke`
 `icanhazdadjoke`
 
 ## Commands
 
-`Enter`: get a random joke  
+`Enter`: get a random joke
 `q`: quit
 
 ## Options
 
-`-version` (`-v`): show CLI version  
+`-version` (`-v`): show CLI version
 `-help` (`-h`): show CLI help

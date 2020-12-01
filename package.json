@@ -1,14 +1,14 @@
 {
   "name": "icanhazdadjoke",
   "description": "Stream dad jokes from https://icanhazdadjoke.com/",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Mark Hillard @markhillard",
   "bin": {
     "icanhazdadjoke": "./bin/run"
   },
   "bugs": "https://github.com/markhillard/icanhazdadjoke/issues",
   "dependencies": {
-    "@oclif/command": "^1.7.0",
+    "@oclif/command": "^1.8.0",
     "request": "^2.88.2"
   },
   "devDependencies": {},
